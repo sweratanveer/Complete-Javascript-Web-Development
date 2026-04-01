@@ -1,0 +1,18 @@
+h1{
+    color:blue;
+    font: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    font-display: swap;
+    font-style: italic;
+}
+body{
+    background-color: black;
+    color:white;
+}
+
+button{
+    background-color: blue;
+    color:aliceblue;
+}

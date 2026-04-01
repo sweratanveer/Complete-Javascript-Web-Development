@@ -1,107 +1,4 @@
 
-// window.open("https://mail.google.com/mail/u/0/", "_blank");
-// // console.log("Swera Rana");
-// // console.log("Eman");
-// // console.log("Welcome to Java script")
-// // name = "Swera Rana";
-// // console.log(name);
-// // age = 24;
-// // console.log(age);
-// // price = 23.5;
-// // console.log(price)
-// // x=null; 
-// // // pata to ha ka is ka andr kuch ha lakin ya nai pata kya ha
-// // y = undefined;
-// // //  pata hi nai is ka andr kya ha
-// // console.log(y);
-// // radius = 14;
-// // console.log(radius);
-
-// // name="s"
-// // $name="e"
-// // _name="s"
-
-// // // Boolean 
-// // isFollow = false;
-// // console.log(isFollow)
-// // isFollow = true;
-// // console.log(isFollow)
-
-      
-
-
-// // let fullName ="Swera Rana";
-// // console.log(fullName)
-// // let age = 18;
-// // console.log(age)
-// // let price = 50;
-// // console.log(price)
-
-
-// // let a;
-// // console.log(a);
-
-// // a=10;
-// // console.log(a);
-
-
-// // {
-// //     let a=5;
-// //     console.log(a);
-// // }
-
-// // {
-// //     let a=10;
-// //     console.log(a);
-// // }
-
-
-// // For checking Data types
-// // age = 18;
-// // fullName = "Swera Tanveer";
-// // isFollow = "True"
-// // let y;
-// // let x = null;
-// // let a = BigInt("123");
-// // let b = Symbol("Hello");
-// // console.log(age);
-
-
-// // const student = {
-// //     fullName: "Swera Rana",
-// //     age: 19, 
-// //     cgpa: 3.76,
-// //     isPass: true,  
-// // };
-// // console.log(student);
-// // console.log(student.age);
-
-// // student.age = student.age + 1;
-// // console.log(student.age);
-
-
-// // Practice Question # 1
-// // const product = {
-// //     fullName: "Ball Pen",
-// //     ratting: 4,
-// //     offer: 5,
-// //     price:270,
-// // };
-
-// // Practice Question #2
-// const profile=
-// {
-//     userName: "Swera Rana",
-//     isFollow: "true",
-//     second: "Message",
-//     posts: 195,
-//     followers: 569,
-//     following: 4,
-//     Enterprenuer: "Apna College | Ex-Microsoft, DRDO"
-// };
-// console.log(profile);
-
-
 console.log("Swera Rana");
 console.log("Sanam Shehzadi");
 console.log("Yusra Riaz");
@@ -213,9 +110,9 @@ console.log(u);
 // Objects  (Arrays, Functions)
 //It is a collection of values
 
-const student = { 
+const student = {
     fullname: "Swera Rana",
-    age: 19, 
+    age: 19,
     cgpa: 3.76,
     isPass: true,
 };
@@ -225,34 +122,87 @@ console.log(student.age);
 console.log(student.cgpa);
 console.log(student.isPass);
 
-student ["age"] = student["age"] + 1;
+student["age"] = student["age"] + 1;
 console.log(student.age);
 
-student ["name"] = " Rana";
+student["name"] = " Rana";
 
 // We can update the let but not the const but we can update the key value of const.
 
 // Practice Questions
-
-const product ={
-    title : "Ball Pen",
+// Question # 1 Create an object named product with the following properties: title, rating, offer, and price. 
+// Assign appropriate values to each property and log the object to the console.
+const product = {
+    title: "Ball Pen",
     rating: 4,
     offer: 5,
-    price:270
+    price: 270
 };
 console.log(product);
 
-// Question # 2
+// Question # 2 Create an object named profile with the following properties: username, isFollow, posts, followers, and following.
+// Assign appropriate values to each property and log the object to the console.
 
 const profile = {
     username: "shardakhapra",
     isFollow: true,
     posts: 195,
-    followers:569,
-    folllowing:4,
+    followers: 569,
+    folllowing: 4,
 };
 console.log(profile);
-    
+
+// Practice Questions for Variables 
+// Question # 1 Declare a variable named fullName and assign it your full name as a string. 
+// Then, log the value of fullName to the console.
+let fullName = "Swera Rana";
+console.log(fullName);  
+
+
+// Question # 2 Declare a variable named age and assign it your age as a number.
+// Then, log the value of age to the console.
+let age3 = 24;
+console.log(age3);
+
+// Question # 3 Declare a variable named price and assign it a decimal value representing the price of an item.
+// Then, log the value of price to the console.
+let price1 = 99.99;
+console.log(price1);
+
+// Question # 4 Declare a variable named isFollow and assign it a boolean value indicating whether you are
+//   following someone on social media.
+let isFollow1 = true;
+console.log(isFollow1);
+
+// Practice Questions for Data Types
+// Question # 1 Create an object named student with the following properties: fullName, age, cgpa, and isPass.
+// Assign appropriate values to each property and log the object to the console.
+const student1 = { 
+    fullName: "Swera Rana",
+    age: 19,
+    cgpa: 3.76, 
+    isPass: true,
+};  
+console.log(student1);
+
+// Question # 2 Create an object named profile with the following properties: username, isFollow, posts, followers, and following.
+// Assign appropriate values to each property and log the object to the console.
+const profile1 = {
+    username: "shardakhapra",
+    isFollow: true,
+    posts: 195, 
+    followers: 569,
+    following: 4,
+};
+console.log(profile1);
+
+// Question # 3 Declare a variable named x and assign it the value null. Then, log the value of x to the console.
+let x1 = null;
+console.log(x1);    
+
+// Question # 4 Declare a variable named y without assigning it a value. Then, log the value of y to the console.
+let y1;
+console.log(y1);    
 
 
 
@@ -262,7 +212,9 @@ console.log(profile);
 
 
 
-                        
+
+
+
 
 
 

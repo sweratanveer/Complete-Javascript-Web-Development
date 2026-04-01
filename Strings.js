@@ -19,7 +19,9 @@ console.log(string[9]);
 console.log(string[10]);
 
 // Template Literals (Template Strings)
-// Template literals are a way to create strings in JavaScript that allow for easier string interpolation and multi-line strings. They are enclosed in backticks (` `) instead of single or double quotes. Template literals can contain placeholders, which are denoted by ${expression}. The expression inside the placeholder is evaluated and its result is included in the string.
+// Template literals are a way to create strings in JavaScript that allow for easier string interpolation and multi-line strings. 
+// They are enclosed in backticks (` `) instead of single or double quotes. Template literals can contain placeholders, 
+// which are denoted by ${expression}. The expression inside the placeholder is evaluated and its result is included in the string.
 let specialString = "This is a template literal.";
 console.log(specialString);
 
@@ -30,7 +32,8 @@ let obj = {
 };
 
 // String Interpolation using Template Literals
-// To create a string that includes the values of the properties from the obj object, we can use template literals for string interpolation. This allows us to embed expressions directly within the string, making it easier to read and maintain.             
+// To create a string that includes the values of the properties from the obj object, we can use template literals for string interpolation.
+//  This allows us to embed expressions directly within the string, making it easier to read and maintain.             
 let output = `The price of the ${obj.item} is ${obj.price} rupees.` // Using template literals for string interpolation   
 console.log(output);
 
